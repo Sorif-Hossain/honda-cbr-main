@@ -16,6 +16,9 @@ ul.no-bullets{
     padding: 0;
     color: #E77C40;
 }
+.bg-color-newsletter{
+    background-color: wheat;
+}
 .footer-color{
     
     background-color: #264653;
