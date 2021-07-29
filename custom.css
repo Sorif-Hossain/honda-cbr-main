@@ -1,0 +1,9 @@
+.filter img{
+    filter: grayscale(100%);
+}
+ul.no-bullets{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #E77C40;
+}
