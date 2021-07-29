@@ -22,6 +22,11 @@
     <header class="bg-warning mb-5">
         <nav class="navbar navbar-expand-lg navbar-light me-5">
             <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto ps-5">
@@ -43,16 +48,18 @@
             <button class="text-white btn btn-primary ms-5 modal-fade" type="button">Login</button>
         </nav>
         <!-- first section -->
-        <div class="row p-5 align-items-center">
-            <div class="col-12 col-lg-6 text-white">
+        <div class="row p-5 d-flex align-items-center">
+            <div class=" col-12 col-lg-5">
                 <p><small>Computer-controlled digital transistorized with electronic advance</small></p>
                 <h1>Honda CBR 300R</h1>
                 <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
                     duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                <button class="btn btn-primary" type="submit">Purchase</button>
+
+                <Button class="btn btn-primary">Purchase</Button>
+
             </div>
-            <div class="col-12 col-lg-6">
-                <img src="images/header-bike.png" alt="">
+            <div class="col-lg-7">
+                <img src="images/header-bike.png" class="d-block w-100" alt="...">
             </div>
         </div>
     </header>
@@ -79,63 +86,78 @@
         <!-- clint section -->
         <section class="container">
             <h1 class="text-center my-5">Happy <span class="text-primary">Clients says</span> </h1>
-            <div class="col">
-                <div class="row row-cols-lg-3 row-cols-sm-1 m-5 gap-5">
 
-                    <div class="card text-center" style="width: 25%;">
-                        <img src="images/user-1.png" class="rounded-circle mx-auto d-block w-50 py-3" alt="...">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of the
-                            card's content.</p>
-                        <ul class="d-flex no-bullets justify-content-center">
-                            <li><i class="fas fa-star"></i></li>
-                            <li><i class="fas fa-star"></i></li>
-                            <li><i class="fas fa-star"></i></li>
-                            <li><i class="fas fa-star"></i></li>
-                            <li><i class="far fa-star"></i></li>
-                        </ul>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 my-5">
+                <div class="col">
+                    <div class="card">
+                        <img src="images/user-1.png" class="card-img-top rounded-circle w-50 img-fluid mx-auto py-4"
+                            alt="...">
+                        <div class="card-body text-center">
 
+                            <p class="card-text">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            <ul class="d-flex no-bullets justify-content-center">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                            </ul>
+                            <span class="text-primary">Regina Miles</span>
+                            <p class="p-3">Banker</p>
+                        </div>
 
-                        <span class="text-primary">Regina Miles</span>
-                        <p class="p-3">Banker</p>
                     </div>
-                    <div class="card text-center" style="width: 25%;">
-                        <img src="images/user-2.png" class="rounded-circle mx-auto d-block w-50 py-3" alt="...">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of the
-                            card's content.</p>
-                        <ul class="d-flex no-bullets justify-content-center">
-                            <li><i class="fas fa-star"></i></li>
-                            <li><i class="fas fa-star"></i></li>
-                            <li><i class="fas fa-star"></i></li>
-                            <li><i class="fas fa-star"></i></li>
-                            <li><i class="far fa-star"></i></li>
-                        </ul>
-
-
-                        <span class="text-primary">Regina Miles</span>
-                        <p class="p-3">Banker</p>
-                    </div>
-                    <div class="card text-center" style="width: 25%;">
-                        <img src="images/user-3-p.jpg" class="rounded-circle mx-auto d-block w-50 py-3" alt="...">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of the
-                            card's content.</p>
-                        <ul class="d-flex no-bullets justify-content-center">
-                            <li><i class="fas fa-star"></i></li>
-                            <li><i class="fas fa-star"></i></li>
-                            <li><i class="fas fa-star"></i></li>
-                            <li><i class="fas fa-star"></i></li>
-                            <li><i class="far fa-star"></i></li>
-                        </ul>
-
-
-                        <span class="text-primary">Regina Miles</span>
-                        <p class="p-3">Banker</p>
-                    </div>
-
-
                 </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/user-2.png" class="card-img-top rounded-circle w-50 img-fluid mx-auto py-4"
+                            alt="...">
+                        <div class="card-body text-center">
+
+                            <p class="card-text">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            <ul class="d-flex no-bullets justify-content-center">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                            </ul>
+                            <span class="text-primary">Regina Miles</span>
+                            <p class="p-3">Banker</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/user-3.jpg" class="card-img-top rounded-circle w-50 img-fluid mx-auto py-4"
+                            alt="...">
+                        <div class="card-body text-center">
+
+                            <p class="card-text">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            <ul class="d-flex no-bullets justify-content-center">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                            </ul>
+                            <span class="text-primary">Regina Miles</span>
+                            <p class="p-3">Banker</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
             </div>
             </div>
 
