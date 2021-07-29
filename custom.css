@@ -1,3 +1,12 @@
+.bg-color{
+    background-color: #264653;
+}
+.btn-color{
+    background-color: #E76F51;
+}
+.text-color{
+    color: #E76F51;
+}
 .filter img{
     filter: grayscale(100%);
 }
@@ -6,4 +15,11 @@ ul.no-bullets{
     margin: 0;
     padding: 0;
     color: #E77C40;
+}
+.footer-color{
+    
+    background-color: #264653;
+    margin-right: 0%;
+    margin-left: 0%;
+    padding: 30px 20px;
 }

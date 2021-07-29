@@ -15,11 +15,13 @@
     <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
         integrity="sha384-haqrlim99xjfMxRP6EWtafs0sB1WKcMdynwZleuUSwJR0mDeRYbhtY+KPMr+JL6f"
         crossorigin="anonymous"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 </head>
 
 <body>
     <!-- nav bar -->
-    <header class="bg-warning mb-5">
+    <header class="bg-color mb-5">
         <nav class="navbar navbar-expand-lg navbar-light me-5">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -31,31 +33,33 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto ps-5">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shop</a>
+                            <a class="nav-link active text-white" href="#">Shop</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">News</a>
+                            <a class="nav-link active text-white" href="#">News</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                            <a class="nav-link active text-white" href="#" tabindex="-1"
+                                aria-disabled="true">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <button class="text-white btn btn-primary ms-5 modal-fade" type="button">Login</button>
+            <button class="text-white btn btn-color ms-5 modal-fade" type="button">Login</button>
         </nav>
         <!-- first section -->
         <div class="row p-5 d-flex align-items-center">
-            <div class=" col-12 col-lg-5">
-                <p><small>Computer-controlled digital transistorized with electronic advance</small></p>
+            <div class=" col-12 col-lg-5 text-white">
+                <p><small>Computer-controlled digital transistorized with electronic advance</small>
+                </p>
                 <h1>Honda CBR 300R</h1>
                 <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
                     duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
 
-                <Button class="btn btn-primary">Purchase</Button>
+                <Button class="btn btn-color" data-bs-toggle="modal" data-bs-target="#reg-modal">Purchase</Button>
 
             </div>
             <div class="col-lg-7">
@@ -67,7 +71,7 @@
         <!-- featured section -->
         <div class="text-center my-5">
             <h1>Fetured Bikes 2021</h1>
-            <p><span class="text-primary">Best bike collection</span></p>
+            <p><span class="text-color">Best bike collection</span></p>
         </div>
         <!-- greyscle container -->
         <div class="container my-5">
@@ -85,7 +89,7 @@
         </div>
         <!-- clint section -->
         <section class="container">
-            <h1 class="text-center my-5">Happy <span class="text-primary">Clients says</span> </h1>
+            <h1 class="text-center my-5 fw-bold">Happy <span class="text-color">Clients Says</span> </h1>
 
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 my-5">
                 <div class="col">
@@ -105,7 +109,7 @@
                                 <li><i class="fas fa-star"></i></li>
                                 <li><i class="far fa-star"></i></li>
                             </ul>
-                            <span class="text-primary">Regina Miles</span>
+                            <span class="text-color">Regina Miles</span>
                             <p class="p-3">Banker</p>
                         </div>
 
@@ -128,7 +132,7 @@
                                 <li><i class="fas fa-star"></i></li>
                                 <li><i class="far fa-star"></i></li>
                             </ul>
-                            <span class="text-primary">Regina Miles</span>
+                            <span class="text-color">Regina Miles</span>
                             <p class="p-3">Banker</p>
                         </div>
 
@@ -151,7 +155,7 @@
                                 <li><i class="fas fa-star"></i></li>
                                 <li><i class="far fa-star"></i></li>
                             </ul>
-                            <span class="text-primary">Regina Miles</span>
+                            <span class="text-color">Regina Miles</span>
                             <p class="p-3">Banker</p>
                         </div>
 
@@ -160,10 +164,129 @@
             </div>
             </div>
             </div>
+        </section>
+        <!-- fac section -->
+        <div class="text-center my-5 rounded">
+            <h1 class="fw-bold">Frequently Asked <span class="text-color">Questions</span> </h1>
+        </div>
+        <!-- accordion section -->
+        <section class="container my-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="images/faq.png" alt="" class="w-75">
+                </div>
+                <div class="col-lg-6">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <strong>What are the most important things I should know about riding a
+                                        bike?</strong>
+                                </button>
+                            </h3>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Safety First! Always obey the rules of the road. Obey all traffic
+                                    signals, signs, and laws. Get in the mindset of “driving” your
+                                    bike—not just “riding” your bike. This will help you be a more
+                                    focused and legally compliant bike rider.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <strong>How can I tell if my helmet is old and I need a new one?</strong>
+                                </button>
+                            </h3>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                    and laws. Get in the mindset of “driving” your bike—not just “riding” your bike.
+                                    This will help you be a more focused and legally compliant bike rider.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <strong>My bike has been in storage is it safe to ride?</strong>
+                                </button>
+                            </h3>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <strong>What rules should I follow when riding my bike?</strong>
+                                </button>
+                            </h3>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                </div>
+            </div>
+        </section>
+
+        <!-- choose bike brand -->
+        <section>
+            <div class="container my-5">
+                <h1 class="my-5 text-center fw-bold">Choose Bike<span class="text-color"> By Brand</span></h1>
+                <div class="row g-5">
+                    <div class="col-sm-3"><img src="images/bike-brand/yamaha-1.png" alt="" class="w-100"></div>
+                    <div class="col-sm-3"><img src="images/bike-brand/bajaj-2.png" alt="" class="w-100"></div>
+                    <div class="col-sm-3"><img src="images/bike-brand/giant-3.png" alt="" class="w-100"></div>
+                    <div class="col-sm-3"><img src="images/bike-brand/specialized-4.png" alt="" class="w-100"></div>
+                </div>
+                <div class="row g-5">
+                    <div class="col-sm-3"><img src="images/bike-brand/suzuki-5.png" alt="" class="w-100"></div>
+                    <div class="col-sm-3"><img src="images/bike-brand/hero-6.png" alt="" class="w-100"></div>
+                    <div class="col-sm-3"><img src="images/bike-brand/jamis-7.jpg" alt="" class="w-100"></div>
+                    <div class="col-sm-3"><img src="images/bike-brand/santa-cruz-8.jpg" alt="" class="w-100"></div>
+                </div>
+            </div>
+        </section>
+        <!-- experience section -->
+        <section>
+            <div class="mt-5 mb-2">
+                <h1 class="fw-bold text-center my-5">Suzuki Bike<span class="text-color"> Experience</span></h1>
+                <img src="images/bike-brand/suzuki-cover -photo.png" alt="" class="img-fluid">
+            </div>
         </section>
 
     </main>
+    <footer class="footer-color text-center">
+        <div>
+            <small class="text-white">© Honda CBR Corporation, 2021. All rights reserved.</small>
+        </div>
+    </footer>
 
 
 
@@ -173,7 +296,30 @@
 
 
 
+    <!-- Button trigger modal -->
 
+
+    <!-- Modal -->
+    <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ducati new Bike</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Ducati revealed a new special edition Panigale V2 honoring the 20th anniversary of Troy Bayliss’
+                        first</p>
+                    <label for="modal email" class="form-label">Your email address:</label>
+                    <input type="Email" class="form-control" id="modal-email" placeholder="Your Email">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-color">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
